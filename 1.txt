@@ -1,0 +1,608 @@
+    1  hostnamectl hostname master
+    2  hostname
+    3  pwd
+    4  mkdir project
+    5  git status
+    6  apt-get install git
+    7  git init 
+    8  git status
+    9  touch 1.txt
+   10  git status
+   11  ls
+   12  cd remove
+   13  git remove
+   14  ls
+   15  pwd
+   16  mkdir /project1
+   17  cd project1
+   18  cd /project1
+   19  git init
+   20  echo "1" >> 1.txt
+   21  git status
+   22  git add 1.txt
+   23  git status
+   24  git commit "First" 1.txt
+   25  ls
+   26  git commit =m "First" 1.txt
+   27  git commit -m "First" 1.txt
+   28  git status
+   29  git config --global pawan.email "pawankawade@yahoo.com"
+   30  git config --global pawan.name "Pawan Kawade"
+   31  git commit -m "First" 1.txt
+   32  git status
+   33  git commit -m "First" 
+   34  git config --global user.email "pawankawade@yahoo.com"
+   35  git config --global user.name "Pawan Kawade"
+   36  git commit -m "First" 
+   37  git status
+   38  git logs
+   39  git log
+   40  cat 1.txt
+   41  cat .git/HEAD
+   42  cat .git/refs/heads/master
+   43  git branch
+   44  git branch uat
+   45  git branch
+   46  git branch prod
+   47  git branch
+   48  git checkout uat
+   49  git branch
+   50  cat .git/HEAD
+   51  echo "UAT Branch" > UAT.txt
+   52  ls
+   53  git add .
+   54  git commit -m "New file in UAT"
+   55  git status
+   56  git log
+   57  git checkout master
+   58  git branch
+   59  echo  "Welcome to Master Branch" > Master.txt
+   60  git add .
+   61  git commit -m "New file in Master"
+   62  git log
+   63  git checkout prod
+   64  echo  "Welcome to PROD Branch" > Prod.txt
+   65  git branch
+   66  git log
+   67  git log --oneline
+   68  git checkout
+   69  git log --oneline
+   70  git checkout master
+   71  git log --oneline
+   72  ls
+   73  git checkout uat
+   74  ls
+   75  git checkout prod
+   76  ls
+   77  cat 1.txt
+   78  git checkout master
+   79  git branch
+   80  git merge uat
+   81  git log --oneline --graph
+   82  ls
+   83  git merge prod
+   84  git checkout uat
+   85  ls
+   86  git checkout master
+   87  git checkout uat
+   88  ls
+   89  vi UAT.txt 
+   90  gid add .
+   91  git add .
+   92  git commit -m "Modify UAT"
+   93  git checout master
+   94  ls
+   95  cat UAT.txt 
+   96  vi UAT.txt 
+   97  cat UAT.txt 
+   98  git add .
+   99  git commit -m "Modiy"
+  100  git merge UAT
+  101  vi UAT.txt 
+  102  git commit
+  103  git branch
+  104  git checkout master
+  105  cat UAT.txt 
+  106  git merge UAT
+  107  cat UAT.txt 
+  108  git checkout UAT
+  109  cat UAT.txt 
+  110  ls
+  111  vi UAT.txt 
+  112  git add .
+  113  git commit -m "m1"
+  114  git branch
+  115  cat UAT.txt 
+  116  git checkout UAT
+  117  git branch
+  118  git checkout uat
+  119  cat uat
+  120  cat UAT.txt 
+  121  git checkout mastert
+  122  git checkout master
+  123  git merge uat
+  124  vi UAT.txt 
+  125  git merge uat
+  126  vi UAT.txt 
+  127  git add .
+  128  git commit -m "Resolve conflicts"
+  129  git merge uat
+  130  cat UAT.txt 
+  131  pwd
+  132  git push
+  133  git remote add origin https://github.com/pawankawade/Pawan_training.git
+  134  git push -u origin main
+  135  git remote add origin https://github.com/pawankawade/Pawan_training.git
+  136  git push -u origin master
+  137  git remote set-url origin https://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@github.com/pawankawade@gmail.com/Pawan_training.git
+  138  git push -u origin master
+  139  git remote set-url origin https://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@github.com/pawankawade@gmail.com/Pawan_training.git
+  140  git push -u origin master
+  141  git remote add origin https://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@github.com/pawankawade@gmail.com/Pawan_training.git
+  142  git push -u origin master
+  143  git push
+  144  git push -u origin master
+  145  git remote remove-url origin https://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@github.com/pawankawade@gmail.com/Pawan_training.git
+  146  git remote add-url origin https://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@github.com/pawankawade@gmail.com/Pawan_training.git
+  147  git remote add origin https://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@github.com/pawankawade@gmail.com/Pawan_training.git
+  148  git push -u origin master
+  149  history
+  150  cd /pr
+  151  cd /
+  152  ls
+  153  cd Sync
+  154  mkdir Sync
+  155  cd Sync/
+  156  git clone https://github.com/pawankawade/Sync-Training.git
+  157  cd /project1
+  158  cp -rf ../Sync/
+  159  ls
+  160  cp -rf ../Sync
+  161  cp -rf /Sync/
+  162  cp -rf . /Sync/
+  163  cd /Sync/
+  164  ls
+  165  ls -ltr
+  166  cd Sync-Training/
+  167  ls
+  168  ls -ltr
+  169  cd ..
+  170  git status
+  171  cd ..
+  172  cd /Sync/
+  173  ls -la
+  174  rm -rf .git
+  175  ls -ltr
+  176  gitstatus
+  177  git status
+  178  git init
+  179  git status
+  180  git clone https://github.com/pawankawade/Sync-Training.git
+  181  git add .
+  182  git push
+  183  git commit -m "commit"
+  184  git status
+  185  git add .
+  186  ls -ltr
+  187  ls -la
+  188  git status
+  189  git add
+  190  git add .
+  191  cd ..
+  192  cd /
+  193  mkdir sync1
+  194  cd project1/
+  195  cp -rf . ./sync1 
+  196  cp -rf . /sync1 
+  197  cd sync1
+  198  ls -ltr
+  199  ls -la
+  200  echo "# Sync-Training" >> README.md
+  201  git init
+  202  git add README.md
+  203  git commit -m "first commit"
+  204  git branch -M main
+  205  git remote add origin https://github.com/pawankawade/Sync-Training.git
+  206  git push -u origin main
+  207  git config --global credential.helper 'cache --timeout=360000'
+  208  git push -u origin main
+  209  git status
+  210  git commit -m "second commit"
+  211  git add
+  212  git add .
+  213  git commit -m "second commit"
+  214  ls -ltr
+  215  git push
+  216  git push --set-upstream origin main
+  217  cd /project1/
+  218  git status
+  219  ls -ltr
+  220  git commit -m "op"
+  221  git add .
+  222  git commit -m "op"
+  223  git status
+  224  git push
+  225  git config --global credential.helper 'cache --timeout=360000'
+  226  git remote add origin https://github.com/pawankawade/Sync-Training.git
+  227  git push
+  228  git branch
+  229  git push -u origin main
+  230  git commit -m "initial commit"
+  231  git push origin main
+  232  git branch -M main
+  233  git push -u origin main
+  234  git push -u origin master
+  235  cd /
+  236  ls -ltr
+  237  cd /Pawan
+  238  mkdir /Pawan
+  239  cd /Pawan
+  240  echo "# Sync-Training" >> README.md
+  241  git init
+  242  git add README.md
+  243  git config --global user.email "pawankawade@gmail.com"
+  244  git config --global user.name "Pawan Kawade"
+  245  git commit -m "first commit"
+  246  git branch -M main
+  247  git status
+  248  ls
+  249  git remote add origin https://github.com/pawankawade/Sync-Training.git
+  250  git push -u origin main
+  251  touch 1.txt
+  252  git config --global credential.helper 'cache --timeout=360000'
+  253  git push -u origin main
+  254  git add .
+  255  git commit -m "Second Commit"
+  256  git push -u origin main
+  257  uname -a
+  258  uname -r
+  259  cat /etc/ubuntu-advantage/
+  260  pwd
+  261  git status
+  262  ls
+  263  cat /etc/lsb-release
+  264  ls
+  265  mkdir Docker
+  266  cd Docker/
+  267  ls
+  268  vi docker.sh
+  269  chmod 777 docker.sh 
+  270  cd ..
+  271  gid add .
+  272  git add .
+  273  git commit -m "Docker"
+  274  git push -u origin main
+  275  cd Docker/
+  276  ls
+  277  ./docker.sh 
+  278  docker -v
+  279  docker --v
+  280  docker version
+  281  ls
+  282  vim docker20.sh
+  283  chmod 777 docker20.sh
+  284  ./docker20.sh
+  285  docker version
+  286  docker --version
+  287  ls
+  288  pwd
+  289  cd ..
+  290  ls
+  291  cd Docker02
+  292  mkdir Docker02
+  293  cd Docker02
+  294  ls
+  295  vi commands
+  296  cd ..
+  297  git add .
+  298  git commit "Docker Commands"
+  299  git commit -m "Docker Commands"
+  300  git push -u origin main
+  301  docker container ls
+  302  docker container ls -a
+  303  docker run busybox echo "Welcome to the world of Docker"
+  304  docker container ls
+  305  docker container ls -a
+  306  docker run busybox echo "Welcome to the world of Docker - Test 2"
+  307  docker run busybox echo "Welcome to the world of Docker - Test 3"
+  308  docker run busybox echo "Welcome to the world of Docker - Test 4"
+  309  docker container ls
+  310  docker container ls -a
+  311  docker images
+  312  docker ps -a
+  313  docker ps
+  314  docker run ubuntu cat /etc/os-release
+  315  docker ps
+  316  docker ps -a
+  317  docker run ubuntu:16.04  cat /etc/os-release
+  318  docker ps -a
+  319  docker ps 
+  320  docker pull amitvashist7/k8s-tiny-web
+  321  docker ps 
+  322  docker ps -a
+  323  docker images
+  324  ls
+  325  cd Docker02
+  326  ls
+  327  vi commands 
+  328  cd .
+  329  cd ..
+  330  gid add .
+  331  git add .
+  332  git commit -m "Command 2"
+  333  git push -u origin main
+  334  docker images 
+  335  docker run -it ubuntu 
+  336  docker ps -a
+  337  docker run -it --name test-1 ubuntu 
+  338  docker ps -a
+  339  docker run -it --name test-2 ubuntu:16.04
+  340  docker ps -a
+  341  docker start test-2
+  342  docker ps 
+  343  docker ps -a
+  344  docker stop test-2
+  345  docker ps -a
+  346  docker run -it test-2 
+  347  docker ps -a
+  348  docker attach test2
+  349  docker attach test-2
+  350  docker start test-2
+  351  docker attach test-2
+  352  docker ps 
+  353  docker attach test-2
+  354  docker kill test-2
+  355  docker ps -a
+  356  docker start test-2
+  357  docker kill test-2
+  358  docker rm test-2
+  359  docker ps -a
+  360  docker run -itd --name test-2 ubuntu:16.04
+  361  docker ps -a
+  362  docker ps -q
+  363  docker ps -aq
+  364  docker ps -l
+  365  docker rm $(docker ps -aq)
+  366  docker ps -a
+  367  docker stop test-2
+  368  docker rm $(docker ps -aq)
+  369  docker ps -a
+  370  docker run -itd --name test-4 ubuntu:16.04
+  371  docker run -itd --name test-5 ubuntu:16.04
+  372  docker run -itd --name test-6 ubuntu
+  373  docker run -itd --name test-6 busybox
+  374  docker run -itd --name test-7 busybox
+  375  docker ps -a
+  376  docker kill $(docker ps -q) 
+  377  docker ps -a
+  378  docker start $(docker ps -qa)
+  379  docker ps -a
+  380  docker inspect test-2
+  381  docker inspect test-4
+  382  ocker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' test-4
+  383  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' test-4
+  384  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  385  docker ps -lq 
+  386  docker ps a-
+  387  docker ps -a
+  388  docker ps -lq 
+  389  docker ps -l
+  390  docker images
+  391  docker rmi busybox
+  392  docker kill c98db043bed9
+  393  docker ps -a
+  394  docker kill eabb8e5c42d9
+  395  docker rmi busybox
+  396  docker ps -a
+  397  docker rmi busybox
+  398  docker rm eabb8e5c42d9
+  399  docker rmi busybox
+  400  docker ps  -a
+  401  docker rmi ubuntu
+  402  docker rmi ubuntu --force
+  403  docker ps  -a
+  404  docker ps docker images
+  405  docker images
+  406  ls
+  407  cd Docker02
+  408  ls
+  409  vi commands
+  410  cd ..
+  411  git add .
+  412  git commit -m "Commands 4"
+  413  git push -u origin main
+  414  mkdir DockerImages/apache
+  415  mkdir DockerImages
+  416  cd DockerImages/
+  417  ls
+  418  vim Dockerfile
+  419  docker build -t myapache:v1 .
+  420  vim Dockerfile
+  421  docker build -t myapache:v2 .
+  422  docker images
+  423  docker run -d --name my-apache-1 myapache:v2
+  424  docker ps -a
+  425  docker ps
+  426  ls
+  427  vim index.html
+  428  ls
+  429  vim Dockerfile 
+  430  ls
+  431  mv Dockerfile Dockerfile_old
+  432  vim Dockerfile
+  433  docker build -t myapache:v3 Dockerfile
+  434  ls
+  435  mv Dockerfile_old /Pawan
+  436  ls
+  437  docker build -t myapache:v3 Dockerfile
+  438  docker build -t myapache:v3 .
+  439  docker images
+  440  docker ps
+  441  docker run -d --name my-apache-3 myapache:v3
+  442  docker ps
+  443  docker images
+  444  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  445  curl 172.17.0.6
+  446  curl 172.17.0.2
+  447  history
+  448  cd ..
+  449  ls
+  450  gid add .
+  451  git add .
+  452  git commit -m "DockerFile"
+  453  git push -u origin main
+  454  ls
+  455  cd Docker
+  456  ls
+  457  cd ..
+  458  cd Docker02
+  459  ls
+  460  vim commands 
+  461  cd ..
+  462  ls
+  463  cd DockerImages/
+  464  ls
+  465  cat Dockerfile 
+  466  cat index.html 
+  467  ls
+  468  cd ..
+  469  git status
+  470  git add .
+  471  git commit -m "Final Add Day"
+  472  git push -u origin main
+  473  cd /
+  474  ls
+  475  cd Sync/
+  476  ls -ltr
+  477  git status
+  478  cd /sync1
+  479  git status
+  480  ls
+  481  cd /Pawan/
+  482  ls -ltr
+  483  git status
+  484  docke images
+  485  docker images
+  486  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  487  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' 
+  488  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  489  docker ps -a
+  490  docker start 5c2fbc178dbe 78c157d8c831 441a478a0e45
+  491  docker ps -a
+  492  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  493  curl 172.17.0.2
+  494  docker network ls
+  495  docker inspect 8f23ec160f36
+  496  docker images
+  497  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  498  docker ps
+  499* docker run -d --name my-apache-7 -p 8080:8080 myapache:v2
+  500  docker ps
+  501  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  502  netstat -tulnp
+  503  apt install netstat
+  504  apt-get install netstat
+  505  apt install net-tools
+  506  netstat -tulnp
+  507  docker ps
+  508  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  509  curl 172.17.0.5
+  510  docker ps
+  511  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  512  docker run -d --name my-apache-8 -p 80:80 myapache:v3
+  513  docker ps
+  514  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  515  netstat -tulnp
+  516  ls
+  517  cd DockerImages/
+  518  ls
+  519  cd ..
+  520  mkdir Images1
+  521  cp -rf DockerImages Images1/
+  522  cd Images1/
+  523  ls -ltr
+  524  cd DockerImages/ .
+  525  cp DockerImages/ .
+  526  cd DockerImages/
+  527  ls
+  528  cp Dockerfile index.html /Pawan/Images1/
+  529  cd ..
+  530  ls -ltr
+  531  rm -rf DockerImages/
+  532  ls
+  533  vi Dockerfile 
+  534  vi index.html 
+  535  ls
+  536  docker build -t myapache:v4 .
+  537  docker images
+  538  docker run -d --name my-apache-11 -P myapache:v4
+  539  docker ps
+  540  docker history a7cbfebf59c3
+  541  docker history f7db35f0766e
+  542  docker history 441a478a0e45
+  543  docker images
+  544  docker history 715ed23ff483
+  545  docker inspect 715ed23ff483
+  546  docker images
+  547  docker tag 715ed23ff483 pawan1581/Pawan/Images-myapache:latest
+  548  pwd
+  549  docker tag 715ed23ff483 pawan1581/Pawan/Images1-myapache:latest
+  550  docker tag 715ed23ff483 /Pawan/Images1-myapache:latest
+  551  docker tag 715ed23ff483 pawan1581/Pawan/Images1-myapache:v4
+  552  docker tag 715ed23ff483 /Pawan/Images1-myapache:v4
+  553  docker tag 715ed23ff483 /pawan/images1-myapache:v4
+  554  docker images
+  555  docker tag 715ed23ff483 pawan1581/pawan-myapache:latest
+  556  docker images
+  557  docker login
+  558  docker push pawan1581/pawan-myapache:latest
+  559  cd ..
+  560  ls
+  561  git add .
+  562  git commit -m "Push Images"
+  563  git push -u origin main
+  564  git config --global credential.helper 'cache --timeout=360000'
+  565  ls
+  566  cd Docker
+  567  ls
+  568  cd ..
+  569  cd Docker02
+  570  ls
+  571  vim commands1
+  572  cd ..
+  573  git add .
+  574  git commit -m "Push images 1"
+  575  git push -u origin main
+  576  git status
+  577  cd ..
+  578  ls -ltr
+  579  cd /test
+  580  mkdir /test
+  581  docker volume ls
+  582  docker volume create my-vol
+  583  docker volume ls
+  584  cat /var/lib/docker/volumes/my-vol/1.txt
+  585  cd /var/lib/docker/volumes/my-vol/1.tx
+  586  cd /var/lib/docker/volumes/my-vol/
+  587  ls
+  588  cd _data/
+  589  ls
+  590  docker ps
+  591  docker attach test-6
+  592  docker ps -a
+  593  docker attach test-vol2
+  594  docker start test-vol2
+  595  docker attach test-vol2
+  596  ls
+  597  cat 1.txt
+  598  docker run -it --name test-vol6 -v /test:/pawan: ubuntu:16.04
+  599  cd /test
+  600  ls
+  601  cat test123.txt 
+  602  docker ps -a
+  603  history
+  604  cd /Pawan
+  605  ls -ltr
+  606  git add .
+  607  git status
+  608  history >> 1.txt
